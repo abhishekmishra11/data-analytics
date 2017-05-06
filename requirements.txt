@@ -1,0 +1,8 @@
+jupyter
+matplotlib
+pandas
+patsy
+scipy
+sklearn
+git+https://github.com/GlobalFishingWatch/rolling_measures.git
+git+https://github.com/matplotlib/basemap.git
