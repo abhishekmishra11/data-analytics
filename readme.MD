@@ -14,16 +14,5 @@ For Ubuntu, run
     sudo apt-get install libgeos-dev
 
 
-
-
-
-
-## Download necessary Python packages using pip
-
-
-
-
-
-
 ## Derive data (1 - 3 hours)
 sh iuu-fishing-models/derive_data.sh
