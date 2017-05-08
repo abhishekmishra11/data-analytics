@@ -3,9 +3,10 @@ pip install -r requirements.txt
 git clone git@github.com:iuu-fishing-detection/training-data.git ../
 sh ../training-data/prepare.sh
 
-mkdir iuu-fishing-model/datasets/originals/
-mkdir iuu-fishing-model/datasets/measures/
-mkdir iuu-fishing-model/datasets/adjusted/
+mkdir datasets
+mkdir datasets/originals/
+mkdir datasets/measures/
+mkdir datasets/adjusted/
 
 cp ../training-data/data/merged/kristina_*.npz \
 datasets/originals/
