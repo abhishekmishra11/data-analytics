@@ -1,3 +1,4 @@
 *DS_STORE
 .npz
 datasets/*
+notebooks/.ipynb_checkpoints/

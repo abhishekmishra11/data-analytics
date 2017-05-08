@@ -1,17 +1,6 @@
-<h1>Logistic Regression to predict fishing behavior</h1>
-
-<h2>Dataset</h2>
-We are using Kat's dataset which has been created from her original data inside GFW's Training Data repository:
-<ul>
-<li>https://github.com/GlobalFishingWatch/training-data</li>
-<li>https://github.com/GlobalFishingWatch/vessel-scoring</li>
-</ul>
-
-<h2>Import Modules</h2>
 import numpy as np
 import pandas as pd
 
-<h2>Data Pre-Processing</h2>
 #Load all longliner data into numpy arrays then pandas dataframes
 kristina_longliner = np.load('datasets/kristina_originals/kristina_longliner.npz')
 kristina_longliner = kristina_longliner['x']
