@@ -1,8 +1,11 @@
+geopy
 jupyter
 matplotlib
 pandas
 patsy
+pyshp
 scipy
 sklearn
-git+https://github.com/GlobalFishingWatch/rolling_measures.git
+git+https://github.com/iuu-fishing-detection/rolling_measures.git
 git+https://github.com/matplotlib/basemap.git
+
